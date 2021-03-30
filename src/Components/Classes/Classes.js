@@ -20,7 +20,7 @@ const Classes = () => {
     }, [])
 
     return (
-        <div className='container-fluid'>
+        <div>
             <div className='header'>
                 <Navbar></Navbar>
                 <div className='head-title'>
