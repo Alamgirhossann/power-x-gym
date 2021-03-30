@@ -32,33 +32,36 @@ const Header = () => {
     setIsOpen(false);
   }
   return (
-    <div className='container-fluid header-container'>
+    <div className='header-container'>
       <Navbar></Navbar>
-      <div className="row">
-        <div className="col-md-6 mx-4 mt-5 title-container">
-          <h1 className='title'>THE BEST FITNESS STUDIO IN TOWN</h1>
-          <p className='detail'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quis quam accusantium id consequatur commodi unde dolor doloremque adipisci mollitia, nulla omnis alias laudantium soluta deserunt expedita hic maiores libero ab pariatur saepe aspernatur iure.</p>
-          <button className='button-style'>JOIN US</button>
-        </div>
-        <div className="col-md-4 d-none d-md-block" >
-          <p onClick={openModal}>
-            <FontAwesomeIcon style={{cursor:"pointer", color: "white", width: "100px", height: "100px", marginTop:"40%",marginLeft:"50%"}} icon={faPlayCircle} />
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-6 mt-5 title-container">
+            <h1 className='title'>THE BEST FITNESS STUDIO IN TOWN</h1>
+            <p className='detail'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quis quam accusantium id consequatur commodi unde dolor doloremque adipisci mollitia, nulla omnis alias laudantium soluta deserunt expedita hic maiores libero ab pariatur saepe aspernatur iure.</p>
+            <button className='button-style'>JOIN US</button>
+          </div>
+          <div className="col-md-4 d-none d-md-block" >
+            <p onClick={openModal}>
+              <FontAwesomeIcon style={{ cursor: "pointer", color: "white", width: "100px", height: "100px", marginTop: "40%", marginLeft: "50%" }} icon={faPlayCircle} />
             </p>
-          <Modal
-            isOpen={modalIsOpen}
-            onRequestClose={closeModal}
-            style={customStyles}
-            contentLabel="Example Modal"
-          >
-            <video width="600" height='400' controls>
-              <source src="mov_bbb.mp4" type="video/mp4" />
-              <source src={gymClip} type="video/ogg" />
-                               
-                    </video>
+            <Modal
+              isOpen={modalIsOpen}
+              onRequestClose={closeModal}
+              style={customStyles}
+              contentLabel="Example Modal"
+            >
+              <video width="600" height='400' controls>
+                <source src="mov_bbb.mp4" type="video/mp4" />
+                <source src={gymClip} type="video/ogg" />
 
-          </Modal>
+              </video>
+
+            </Modal>
+          </div>
         </div>
       </div>
+
     </div>
   );
 };
