@@ -1,0 +1,23 @@
+.yoga{
+    background-image: url('../../../Images/yoga.png');
+    background-size: cover;
+    background-position: center;
+}
+.cardio{
+    background-image: url('../../../Images/cardio.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.section-container{
+    padding-bottom: 60px;
+}
+.card-title{
+    margin-top: 350px;
+    background: #FCD842;
+    width: 60%;
+    height: 50px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    text-align: left;
+}

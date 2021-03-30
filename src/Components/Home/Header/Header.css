@@ -1,0 +1,24 @@
+.button-style{
+    background-color:#FCD842; 
+    width:150px; 
+    height:50px; 
+    font-weight:bold;
+    outline: none;
+    border:none;
+    
+}
+.title-container{
+    padding-bottom: 50px;
+}
+.header-container{
+    background-image: url('../../../Images/headBg.jpg');
+    background-size: cover; 
+    background-position: top;
+}
+.title{
+    font-size: 60px;
+    color: white;
+}
+.detail{
+    color: white;
+}

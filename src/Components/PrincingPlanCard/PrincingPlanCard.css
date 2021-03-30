@@ -1,0 +1,21 @@
+.bg-primary-bg{
+    background-image: url('../../Images/progression.jpg');
+    background-size: cover;
+}
+.bg-secondary-bg{
+    background-image: url('../../Images/workout.jpg');
+    background-size: cover;
+}
+.bg-third-bg{
+    background-image: url('../../Images/nutrition.jpg');
+    background-size: cover;
+}
+.title-workout{
+    color:#FCD842;
+}
+.title-prog{
+    color:#fff;
+}
+.title-nutri{
+    color:#fff;
+}
