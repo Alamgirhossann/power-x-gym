@@ -9,7 +9,7 @@ const ClassShedule = () => {
     const [classes, setClasses] = useState({})
     console.log(classes);
     useEffect(() => {
-        fetch(`http://localhost:4000/getClass/${id}`, {
+        fetch(`https://still-savannah-43768.herokuapp.com/getClass/${id}`, {
             headers: { 'Content-type': 'application/json' },
             body: JSON.stringify()
         })

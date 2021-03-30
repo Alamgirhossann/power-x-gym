@@ -27,14 +27,14 @@ const PaymentProcess = () => {
                             <p>Personal Detail</p>
                         </div>
                         <div>
-                            <span>..................................</span>
+                        <span>..................</span>
                         </div>
                         <div className='text-center'>
                             <h3><span style={{ borderRadius: "50%", backgroundColor: "#FCD842" }}>2</span></h3>
                             <p>Bank Payment</p>
                         </div>
                         <div>
-                            <span>..................................</span>
+                        <span>..................</span>
                         </div>
                         <div className='text-center text-secondary'>
                             <h3><span>3</span></h3>

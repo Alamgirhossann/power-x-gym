@@ -9,7 +9,7 @@ const PrincingPlanCard = ({ plan }) => {
     const classInfo = JSON.parse(sessionStorage.getItem('class'))
     const getPriceInfo = (e) => {
         
-        fetch(`http://localhost:4000/price/${plan.id}`, {
+        fetch(`https://still-savannah-43768.herokuapp.com/price/${plan.id}`, {
             method: "GET",
             headers: { 'Content-type': 'application/json' },
             body: JSON.stringify()

@@ -11,7 +11,7 @@ const Classes = () => {
     const [getClass, setGetClasses] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:4000/getClass', {
+        fetch('https://still-savannah-43768.herokuapp.com/getClass', {
             headers: { 'Content-type': 'application/json' },
             body: JSON.stringify()
         })

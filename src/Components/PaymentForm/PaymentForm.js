@@ -27,7 +27,7 @@ const PaymentForm = () => {
                 paymentId,
                 orderTime: new Date()
             };
-            fetch('http://localhost:4000/payment', {
+            fetch('https://still-savannah-43768.herokuapp.com/payment', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

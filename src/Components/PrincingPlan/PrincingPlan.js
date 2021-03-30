@@ -9,7 +9,7 @@ const PrincingPlan = () => {
     const [price, setPrice] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:4000/price', {
+        fetch('https://still-savannah-43768.herokuapp.com/price', {
             headers: { 'Content-type': 'application/json' },
             body: JSON.stringify()
         })
